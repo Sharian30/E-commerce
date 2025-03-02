@@ -1,6 +1,11 @@
 .container{
     margin-bottom: 100px
 }
+.navbar a{
+   
+    font-size: 18px;
+    margin-left: 20px;
+}
 .carubox{
     background-color: #fceae8;
     border-radius: 10px
@@ -20,4 +25,54 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.cat1,.cat2,.cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+}
+.cat1{
+    background-image: linear-gradient(to right,orange,rgb(224, 147, 2));
+    background-color: orange;
+}
+.cat2{
+    background-image: linear-gradient(to right, rgb(222, 85, 217),rgb(236, 20, 229));
+}
+.cat3{
+    background-image: linear-gradient(to right,rgb(20, 20, 239),rgb(4, 4, 194));
+}
+.categories img{
+  width: 100px;  
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.watch img{
+    width: 350px;
+    height: auto;
+    padding-top: 5%;
+}
+.subscribe{
+
+   height: 300px;
+}
+.card-footer{
+   
+    border-top: none;
+}
+#send{
+    
+    width:100px ;
+
+}
+#email{
+    width: 270px;
+    margin-bottom: 2%;
+}
+#text{
+    color: gray;
+}
+footer{
+    text-align: center;
 }
